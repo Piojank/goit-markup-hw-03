@@ -409,11 +409,10 @@ footer .container {
   border-left: 1px solid var(--shade);
   border-bottom: 1px solid var(--shade);
   border-right: 1px solid var(--shade);
-  padding: 20px 10px 20px 24px;
+  padding: 20px 24px;
 }
 
 .portfolio-title {
-  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   letter-spacing: 0.06em;
   font-size: 18px;
