@@ -57,6 +57,11 @@ img {
   display: block;
 }
 
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
 .list {
   list-style: none;
 }
@@ -401,9 +406,10 @@ footer .container {
 .portfolio-caption {
   display: block;
   box-sizing: border-box;
-  border: 1px solid var(--shade);
-  padding: 20px 24px;
-  margin: 0;
+  border-left: 1px solid var(--shade);
+  border-bottom: 1px solid var(--shade);
+  border-right: 1px solid var(--shade);
+  padding: 20px 10px 20px 24px;
 }
 
 .portfolio-title {
