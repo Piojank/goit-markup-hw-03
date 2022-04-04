@@ -1,6 +1,5 @@
 :root {
-  --main-font: 'Roboto',
-  sans-serif;
+  --main-font: 'Roboto', sans-serif;
   --sec-main-font: 'Roboto', serif;
   color: var(--black);
   --black: #000000;
@@ -142,14 +141,20 @@ section {
   background: var(--rock);
 }
 
+.service > .container {
+  margin-top: 108px;
+  margin-bottom: 106px;
+}
+
 .service-title {
   font-weight: 900;
   font-size: 44px;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.06em;
+  line-height: 1.36;
   color: var(--white);
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   display: flex;
   max-width: 696px;
   margin-left: auto;
@@ -273,16 +278,16 @@ section {
   margin-bottom: 30px;
 }
 
-.footer-accent {
-  color: var(--white);
-}
-
 /* <!-- END team markup--> */
 
 /* <!-- footer markup--> */
 
 footer {
   background: var(--rock);
+}
+
+.footer-accent {
+  color: var(--white);
 }
 
 footer .container {
@@ -302,6 +307,7 @@ footer .container {
 .adress-list-item {
   font-size: 14px;
   line-height: 1.714;
+  letter-spacing: 0.03em;
 }
 
 .adress-list-item:not(:last-child) {
@@ -396,6 +402,7 @@ footer .container {
 }
 
 .portfolio-title {
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   letter-spacing: 0.06em;
   font-size: 18px;
