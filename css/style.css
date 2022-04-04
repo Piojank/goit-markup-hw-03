@@ -68,13 +68,11 @@ img {
 
 .container {
   width: 1200px;
-  padding: 0;
-  align-items: center;
   margin: 0 auto;
 }
 
 section {
-  padding: 94px 94px;
+  padding: 94px 0;
 }
 
 /* <!-- Header markup--> */
@@ -139,40 +137,41 @@ section {
 
 .service {
   background: var(--rock);
+  display: flex;
+  padding: 200px 0;
 }
 
-.service > .container {
-  margin-top: 108px;
-  margin-bottom: 106px;
+.service .service-title {
+  width: 696px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .service-title {
   font-weight: 900;
   font-size: 44px;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 0.06em;
   line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--white);
   margin-bottom: 30px;
-  display: flex;
-  max-width: 696px;
-  margin-left: auto;
-  margin-right:auto;
 }
 
 .service-button {
-  margin: 0 auto;
-  display: block;
-  width: 200px;
-  height: 50px;
-  background: var(--blue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   color: var(--white);
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  align-items: center;
+  padding: 10px 41px 10px 42px;
+  line-height: 1.875;
+  background: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 
@@ -184,6 +183,9 @@ section {
   padding-bottom: 0;
 }
 
+.aboutus-list {
+  display: flex;  
+}
 .aboutus-list-title {
   text-transform: uppercase;
 }
@@ -204,15 +206,10 @@ section {
 .aboutus-list-text {
   font-size: 14px;
   color: var(--silver);
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin: 10px 0 0;
   line-height: 1.714;
   text-align: left;
   padding: 0;
-}
-
-.aboutus-list {
-  display: flex;
 }
 
 .aboutus-images-title {
