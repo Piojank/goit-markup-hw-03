@@ -114,13 +114,6 @@ section {
   margin-right: 93px;
 }
 
-.navigation-list-link:hover,
-.navigation-list-link:focus,
-.contact-adress:hover,
-.contact-adress:focus {
-  color: var(--blue);
-}
-
 .navigation-list-link,
 .contact-adress {
   letter-spacing: 0.02em;
@@ -330,6 +323,13 @@ footer .container {
 
 .adress-list-item .contact-adress {
   color: var(--grey);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.contact-adress:hover,
+.contact-adress:focus {
+  color: var(--blue);
 }
 
 /* <!-- END footer markup--> */
